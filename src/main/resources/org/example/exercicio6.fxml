@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Exercicio6Controller">
+   <children>
+      <Button fx:id="bt_Voltar" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#switchToInicial" text="Voltar" />
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercicio 6 - Viajem" wrappingWidth="150.13671875" />
+      <Text layoutX="14.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="digite a distância da viajem(em km):" wrappingWidth="253.13671875" />
+      <TextField fx:id="txtf_Viajem" layoutX="14.0" layoutY="67.0" />
+      <Text layoutX="14.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="digite o preço da gasolina:" wrappingWidth="253.13671875" />
+      <TextField fx:id="txtf_Preco" layoutX="14.0" layoutY="129.0" />
+      <Button fx:id="bt_CalcularViajem" layoutX="14.0" layoutY="175.0" mnemonicParsing="false" onAction="#calculaViajem" text="Calcular" />
+      <TextArea fx:id="txta_MostrarTexto6" layoutX="14.0" layoutY="211.0" prefHeight="103.0" prefWidth="314.0" />
+   </children>
+</AnchorPane>

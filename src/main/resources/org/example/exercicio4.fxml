@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Exercicio4Controller">
+   <children>
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercicio 4 - temperaturas" wrappingWidth="200.13671875" />
+      <Text layoutX="14.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite as temperaturas dos meses em SJC:" wrappingWidth="133.13671875" />
+      <Text layoutX="34.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 1" wrappingWidth="112.13671875" />
+      <Text layoutX="34.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 2" wrappingWidth="112.13671875" />
+      <Text layoutX="34.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 3" wrappingWidth="112.13671875" />
+      <Text layoutX="175.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 4" wrappingWidth="112.13671875" />
+      <Text layoutX="175.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 5" wrappingWidth="112.13671875" />
+      <Text layoutX="175.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 6" wrappingWidth="112.13671875" />
+      <Text layoutX="310.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 7" wrappingWidth="112.13671875" />
+      <Text layoutX="310.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 8" wrappingWidth="112.13671875" />
+      <TextField fx:id="txtf_Mes1" layoutX="32.0" layoutY="104.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Mes2" layoutX="32.0" layoutY="166.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Mes3" layoutX="32.0" layoutY="233.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Mes5" layoutX="175.0" layoutY="166.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Mes8" layoutX="310.0" layoutY="166.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Mes6" layoutX="175.0" layoutY="233.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Mes9" layoutX="310.0" layoutY="233.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Mes4" layoutX="175.0" layoutY="104.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Mes7" layoutX="310.0" layoutY="104.0" prefHeight="0.0" prefWidth="101.0" />
+      <Text layoutX="310.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 9" wrappingWidth="112.13671875" />
+      <Text layoutX="457.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 10" wrappingWidth="112.13671875" />
+      <Text layoutX="457.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 11" wrappingWidth="112.13671875" />
+      <TextField fx:id="txtf_Mes11" layoutX="457.0" layoutY="166.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Mes12" layoutX="457.0" layoutY="233.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Mes10" layoutX="457.0" layoutY="104.0" prefHeight="0.0" prefWidth="101.0" />
+      <Text layoutX="457.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mês 12" wrappingWidth="112.13671875" />
+      <TextArea fx:id="txta_MostraTexto" layoutX="33.0" layoutY="265.0" prefHeight="61.0" prefWidth="357.0" />
+      <Button fx:id="bt_Voltar" layoutX="8.0" layoutY="368.0" mnemonicParsing="false" onAction="#switchToInicial" text="Voltar" />
+      <Button fx:id="bt_Verificar" layoutX="431.0" layoutY="283.0" mnemonicParsing="false" onAction="#verificarTemperatura" text="Verificar" />
+   </children>
+</AnchorPane>

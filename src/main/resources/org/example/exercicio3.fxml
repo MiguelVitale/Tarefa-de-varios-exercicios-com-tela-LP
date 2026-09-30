@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Exercicio3Controller">
+   <children>
+      <Text layoutX="21.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercicio 3 - compras" wrappingWidth="128.13671875" />
+      <Text layoutX="21.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o preço do arroz:" wrappingWidth="112.13671875" />
+      <Text layoutX="21.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o preço do feijão:" wrappingWidth="112.13671875" />
+      <Text layoutX="21.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o preço do oleo de soja:" wrappingWidth="112.13671875" />
+      <TextArea fx:id="txta_MostraPreco" layoutX="19.0" layoutY="229.0" prefHeight="147.0" prefWidth="556.0" />
+      <Text layoutX="162.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o preço do açucar:" wrappingWidth="112.13671875" />
+      <Text layoutX="162.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o preço do café:" wrappingWidth="112.13671875" />
+      <Text layoutX="162.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o preço do macarrão:" wrappingWidth="112.13671875" />
+      <Text layoutX="297.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o preço da farinha de mandioca:" wrappingWidth="112.13671875" />
+      <Text layoutX="297.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o preço do fubá de milho:" wrappingWidth="112.13671875" />
+      <Text layoutX="297.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o preço do extrato de tomate:" wrappingWidth="112.13671875" />
+      <Text layoutX="436.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o preço do sal refinado:" wrappingWidth="112.13671875" />
+      <TextField fx:id="txtf_Arroz" layoutX="19.0" layoutY="73.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Feijao" layoutX="19.0" layoutY="135.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Soja" layoutX="19.0" layoutY="202.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Acucar" layoutX="162.0" layoutY="73.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Mandioca" layoutX="297.0" layoutY="73.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Sal" layoutX="436.0" layoutY="73.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Cafe" layoutX="162.0" layoutY="135.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Fuba" layoutX="297.0" layoutY="135.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Macarrao" layoutX="162.0" layoutY="202.0" prefHeight="0.0" prefWidth="101.0" />
+      <TextField fx:id="txtf_Extrato" layoutX="297.0" layoutY="202.0" prefHeight="0.0" prefWidth="101.0" />
+      <Button fx:id="bt_Comprar" layoutX="474.0" layoutY="202.0" mnemonicParsing="false" onAction="#fazerCompra" text="Comprar" />
+      <Button fx:id="bt_Voltar" layoutX="3.0" layoutY="388.0" mnemonicParsing="false" onAction="#switchToInicial" text="Voltar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.InicialController">
+   <children>
+      <Text layoutX="83.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Escolha um exercicio para ver:" wrappingWidth="223.13671875" />
+      <Button fx:id="btn_Ex1Multi" layoutX="83.0" layoutY="66.0" mnemonicParsing="false" onAction="#switchToExercicio1" prefHeight="25.0" prefWidth="122.0" text="EX 1 - multiplo" />
+      <Button fx:id="bt_Ex2Senha" layoutX="83.0" layoutY="102.0" mnemonicParsing="false" onAction="#switchToExercicio2" prefHeight="25.0" prefWidth="122.0" text="EX 2 - senha" />
+      <Button fx:id="bt_Ex3Compras" layoutX="83.0" layoutY="141.0" mnemonicParsing="false" onAction="#switchToExercicio3" prefHeight="25.0" prefWidth="122.0" text="EX 3 - compras" />
+      <Button fx:id="bt_Ex4Temperaturas" layoutX="83.0" layoutY="181.0" mnemonicParsing="false" onAction="#switchToExercicio4" prefHeight="25.0" prefWidth="122.0" text="EX 4 - temperaturas" />
+      <Button fx:id="bt_Ex5Camelos" layoutX="83.0" layoutY="218.0" mnemonicParsing="false" onAction="#switchToExercicio5" prefHeight="25.0" prefWidth="122.0" text="EX 5 - camelos" />
+      <Button fx:id="bt_Ex6Viajem" layoutX="83.0" layoutY="259.0" mnemonicParsing="false" onAction="#switchToExercicio6" prefHeight="25.0" prefWidth="122.0" text="EX 6 - viajem" />
+      <Button fx:id="bt_Ex7Aluguel" layoutX="83.0" layoutY="297.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="122.0" text="EX 7 - aluguel" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Exercicio1Controller">
+   <children>
+      <Text layoutX="26.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercicio 1 - multiplo de um numero" wrappingWidth="238.08984375" />
+      <Text layoutX="26.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o primeiro numero:" wrappingWidth="194.13671875" />
+      <Text layoutX="26.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o segundo numero:" wrappingWidth="194.13671875" />
+      <TextField fx:id="txtf_PrimeiroMulti" layoutX="26.0" layoutY="51.0" />
+      <TextField fx:id="txtf_SegundoMulti" layoutX="26.0" layoutY="142.0" />
+      <Button fx:id="bt_CalcularMultiplo" layoutX="26.0" layoutY="214.0" mnemonicParsing="false" onAction="#calcularMultiplo" text="Calcular" />
+      <TextArea fx:id="txta_ResultadoMultiplo" layoutX="17.0" layoutY="247.0" prefHeight="57.0" prefWidth="567.0" />
+      <Button fx:id="bt_Voltar" layoutX="12.0" layoutY="361.0" mnemonicParsing="false" onAction="#switchToInicial" text="Voltar" />
+   </children>
+</AnchorPane>
