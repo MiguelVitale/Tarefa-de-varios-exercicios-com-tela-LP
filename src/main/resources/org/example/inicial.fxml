@@ -13,6 +13,6 @@
       <Button fx:id="bt_Ex4Temperaturas" layoutX="83.0" layoutY="181.0" mnemonicParsing="false" onAction="#switchToExercicio4" prefHeight="25.0" prefWidth="122.0" text="EX 4 - temperaturas" />
       <Button fx:id="bt_Ex5Camelos" layoutX="83.0" layoutY="218.0" mnemonicParsing="false" onAction="#switchToExercicio5" prefHeight="25.0" prefWidth="122.0" text="EX 5 - camelos" />
       <Button fx:id="bt_Ex6Viajem" layoutX="83.0" layoutY="259.0" mnemonicParsing="false" onAction="#switchToExercicio6" prefHeight="25.0" prefWidth="122.0" text="EX 6 - viajem" />
-      <Button fx:id="bt_Ex7Aluguel" layoutX="83.0" layoutY="297.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="122.0" text="EX 7 - aluguel" />
+      <Button fx:id="bt_Ex7Aluguel" layoutX="83.0" layoutY="297.0" mnemonicParsing="false" onAction="#switchToExercicio7" prefHeight="25.0" prefWidth="122.0" text="EX 7 - aluguel" />
    </children>
 </AnchorPane>

@@ -20,7 +20,7 @@ public class Exercicio6Controller {
     @FXML
     private TextArea txta_MostrarTexto6;
 
-    double Viajem; double Preco; double Custo; double Desconto;
+    double Viajem; double Preco; double Custo; double Desconto = 0;
 
     @FXML
     void calculaViajem(ActionEvent event){
@@ -29,11 +29,11 @@ public class Exercicio6Controller {
         Viajem = Double.parseDouble(txtf_Viajem.getText());
         Preco = Double.parseDouble(txtf_Preco.getText());
 
-        Custo = (Viajem / (double)12.0F ) * Preco;
-        if(Viajem > (double)500.0F ) Desconto = Custo - (Preco * (double)0.05F);
+        Custo = (Viajem / 12.0 ) * Preco;
+        if(Viajem > 500.0 ) Desconto = Custo - (Custo * 0.05);
 
         txta_MostrarTexto6.appendText("Custo total da viajem: " + Custo + "\n");
-        if(Viajem > (double)500.0F ) txta_MostrarTexto6.appendText("Custo com desconto: " + Desconto + "\n");
+        if(Viajem > 500.0 ) txta_MostrarTexto6.appendText("Custo com desconto: " + Desconto + "\n");
     }
 
     @FXML
