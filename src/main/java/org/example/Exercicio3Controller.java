@@ -73,7 +73,7 @@ public class Exercicio3Controller {
         txta_MostraPreco.appendText("Arroz               | 1,5Kg |  " + PreArroz + "\n");
         txta_MostraPreco.appendText("Feijão carioca      |  2Kg  |  " + PreFeijao + "\n");
         txta_MostraPreco.appendText("Oleo de soja        | 900ml |  " + PreOleoSoja + "\n");
-        txta_MostraPreco.appendText("Açúcar refinado     |  1Kg  |  " + PreArroz + "\n");
+        txta_MostraPreco.appendText("Açúcar refinado     |  1Kg  |  " + PreAcucar + "\n");
         txta_MostraPreco.appendText("Café torrado        |  250g |  " + PreCafe + "\n");
         txta_MostraPreco.appendText("Macarrão espaguete  |  500g |  " + PreMacarrao + "\n");
         txta_MostraPreco.appendText("Farinha de mandioca |  1kg  |  " + PreFarinhaMandioca + "\n");
